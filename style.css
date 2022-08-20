@@ -13,6 +13,9 @@ body {
 }
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url(./images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -34,6 +37,20 @@ button {
   border-radius: 10px;
   background-color: var(--bright-blue);
   color: var(--very-pale-blue);
+}
+
+.card__container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 800px;
+}
+
+.card-info__container {
+  padding: 20px;
+  height: 100%;
+  text-align: center;
 }
 
 .attribution {
