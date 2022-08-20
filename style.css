@@ -34,8 +34,8 @@ footer {
 }
 
 h1 {
-    margin-top: 0;
-    font-size: 1.5rem;
+  margin-top: 0;
+  font-size: 1.5rem;
 }
 
 button {
@@ -63,77 +63,79 @@ button {
   height: 100%;
   text-align: center;
   box-shadow: hsla(223, 47%, 23%, 0.26) 0px 0px 100px 0px;
-  border-radius: 20px;
+  border-radius: 0 0 15px 15px;
 }
 
 .main__text {
-    color: var(--desaturated-blue);
-    line-height: 1.5rem;
+  color: var(--desaturated-blue);
+  line-height: 1.5rem;
 }
 
 .price-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--very-pale-blue);
-    border-radius: 15px;
-    gap: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--very-pale-blue);
+  border-radius: 15px;
+  gap: 50px;
 }
 
 .price-info a {
-    color: var(--bright-blue);
-    font-weight: 600;
+  color: var(--bright-blue);
+  font-weight: 600;
 }
 
 .price-info a:hover {
-    color: hsl(245, 83%, 68%);
-    text-decoration: none;
+  color: hsl(245, 83%, 68%);
+  text-decoration: none;
 }
 
 .price-info__left {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
 }
 .price-info__left img {
-    width: 40px;
-    height: 40px;
-    margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
 }
 
 .price__title {
-    font-weight: 600;
-    margin-bottom: 0;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
 .price {
-    color: var(--desaturated-blue);
-    margin-top: 0;
+  color: var(--desaturated-blue);
+  margin-top: 0;
 }
 
-
 .payment__button {
-    width: 100%;
-    padding: 15px;
-    margin: 30px 0;
-    font-weight: 900;
-    box-shadow: hsla(245, 75%, 52%, 0.09) 0px 2px 1px, hsla(245, 75%, 52%, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, hsla(245, 75%, 52%, 0.09) 0px 16px 8px, hsla(245, 75%, 52%, 0.09) 0px 32px 16px;
+  width: 100%;
+  padding: 15px;
+  margin: 30px 0;
+  font-weight: 900;
+  box-shadow: hsla(245, 75%, 52%, 0.09) 0px 2px 1px,
+    hsla(245, 75%, 52%, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    hsla(245, 75%, 52%, 0.09) 0px 16px 8px,
+    hsla(245, 75%, 52%, 0.09) 0px 32px 16px;
 }
 
 .payment__button:hover {
-    background-color: hsl(245, 83%, 68%);
-    cursor: pointer;
+  background-color: hsl(245, 83%, 68%);
+  cursor: pointer;
 }
 
 .cancel {
-    font-weight: 600;
-    color: var(--desaturated-blue);
-    text-decoration: none;
+  font-weight: 600;
+  color: var(--desaturated-blue);
+  text-decoration: none;
 }
 
 .cancel:hover {
-    color: var(--dark-blue);
+  color: var(--dark-blue);
 }
 
 .attribution {
@@ -148,6 +150,27 @@ button {
 @media screen and (max-width: 375px) {
   body {
     background-image: url(./images/pattern-background-mobile.svg);
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .card__container {
+    width: 340px;
+    height: 560px;
+  }
+  .card-info__container {
+    padding: 30px;
+    border-radius: 0 0 15px 15px;
+  }
+
+  .price-info {
+    gap: 25px;
+  }
+
+  .price-info__left img {
+    margin-right: 20px;
   }
 }
 
