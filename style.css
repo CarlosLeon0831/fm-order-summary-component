@@ -1,6 +1,6 @@
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
@@ -43,14 +43,34 @@ button {
   background-color: white;
   display: flex;
   flex-direction: column;
-  width: 500px;
-  height: 800px;
+  width: 400px;
+  height: 650px;
+  border-radius: 20px;
+}
+
+.hero__image {
+  border-radius: 20px 20px 0 0;
 }
 
 .card-info__container {
-  padding: 20px;
+  padding: 40px;
   height: 100%;
   text-align: center;
+}
+
+.price-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--very-pale-blue);
+    border-radius: 10px;
+}
+
+.payment__button {
+    width: 100%;
+    padding: 15px;
+    margin: 30px 0;
+    font-weight: 900;
 }
 
 .attribution {
